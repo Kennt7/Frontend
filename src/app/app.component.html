@@ -1,0 +1,42 @@
+<link rel="stylesheet" type="text/css" href="./app.component.css">
+
+<mat-toolbar>
+    <div class="balGombsor">
+        <button mat-button (click)="sidenav.open()">BalKijön</button>
+        <button mat-button (click)="sidenav.close()">BalVisszamegy</button>
+        <button mat-button>Gomb</button>
+    </div>
+    <h1>Oldal neve</h1>
+    <div class="jobbGombsor">
+        <button mat-button>Gomb</button>
+        <button mat-button (click)="sidenav2.open()">JobbKijön</button>
+        <button mat-button (click)="sidenav2.close()">JobbVisszamegy</button>
+    </div>
+
+</mat-toolbar>
+
+
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" class="balSide">
+        <mat-grid-list cols="3" rowheight="1:1">
+            <mat-grid-tile id="elsoOszlop">1</mat-grid-tile>
+            <mat-grid-tile id="masodikOszlop">2</mat-grid-tile>
+            <mat-grid-tile id="harmadikOszlop">3</mat-grid-tile>
+        </mat-grid-list>
+    </mat-sidenav>
+    <mat-grid-list cols="1">
+        <section>
+
+        </section>
+    </mat-grid-list>
+
+    <mat-sidenav #sidenav2 mode="side" class="jobbSide" position="end">
+        <mat-grid-list cols="3" rowheight="1:1">
+            <mat-grid-tile id="negyedikOszlop">4</mat-grid-tile>
+            <mat-grid-tile id="otodikOszlop">5</mat-grid-tile>
+            <mat-grid-tile id="hatodikOszlop">6</mat-grid-tile>
+        </mat-grid-list>
+    </mat-sidenav>
+
+</mat-sidenav-container>

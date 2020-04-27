@@ -1,0 +1,115 @@
+    mat-toolbar {
+        display: block;
+        background-color: blue;
+        height: 200px;
+        width: 100%;
+        position: fixed;
+    }
+    
+    mat-sidenav-container {
+        margin-top: 50px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url("../assets/images/galaxis-tejut-szikla-hatterkep-50059.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    section {
+        width: 100%;
+    }
+    
+    mat-sidenav {
+        background-color: orange;
+        color: black;
+    }
+    
+    mat-sidenav-content {
+        color: black;
+        height: 100%;
+        width: 400px;
+        padding: 0;
+    }
+    
+    .balGombsor {
+        margin-top: 5px;
+        float: left;
+    }
+    
+    .jobbGombsor {
+        margin-top: -25px;
+        float: right;
+    }
+    
+    .balSide {
+        width: 200px;
+        float: left;
+    }
+    
+    .jobbSide {
+        width: 600px;
+        float: right;
+    }
+    
+    h1 {
+        display: block;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    button {
+        opacity: 0.7;
+        border: 1px solid black;
+        background-color: yellow;
+        color: black;
+    }
+    
+    button:hover {
+        opacity: 1.0;
+    }
+    
+    #elsoOszlop {
+        background-color: red;
+    }
+    
+    #masodikOszlop {
+        background-color: white;
+    }
+    
+    #harmadikOszlop {
+        background-color: green;
+    }
+    
+    #negyedikOszlop {
+        background-color: red;
+    }
+    
+    #otodikOszlop {
+        background-color: white;
+    }
+    
+    #hatodikOszlop {
+        background-color: green;
+    }
+    
+    mat-grid-list {
+        height: 100%;
+        width: 100%;
+    }
+    
+    mat-grid-tile {
+        height: 100%;
+    }
+    
+    #sidenav2 {
+        clear: inherit;
+        float: right;
+    }
