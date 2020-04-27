@@ -1,0 +1,12 @@
+
+fix header bal 3gomb jobb oldal 3 gomb középen oldalnak a neve
+header alatt
+kenyérmorzsa a slidenavoknál menjen össze
+7 oszlop képernyő, jobbról 3 oszlop balról 3 oszlop jöjjön
+200px 400px 600px
+felső gombokkal tudjam vezérelni, kijön visszamegy stb..
+balról jobbról menjen
+angular material slidenav
+slidenav
+
+node.js-t kell használni
